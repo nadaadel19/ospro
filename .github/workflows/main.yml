@@ -8,7 +8,8 @@ on:
 
 
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - name: "testing github"
-      run: echo hello
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "testing github"
+        run: echo hello
