@@ -11,5 +11,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@3
       - name: "listing files"
         run: ls
